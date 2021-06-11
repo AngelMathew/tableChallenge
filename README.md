@@ -10,12 +10,12 @@ CSS Modules
 
 ## Project Setup
 
-# install dependencies
+### install dependencies
 npm install
 
-# serve with hot reload at localhost:1234
+### serve with hot reload at localhost:1234
 npm run dev
 
-# build for production
+### build for production
 npm run build
 

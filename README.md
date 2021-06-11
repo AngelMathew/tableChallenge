@@ -19,5 +19,8 @@ serve with hot reload at localhost:3000
 ```npm run dev```
 
 build for production
+
 ```npm run build ```
+
+You can get started by editing ```/src/App.tsx```
 

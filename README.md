@@ -6,9 +6,9 @@ The `<Table/>` component in this project has 2 props, `data` which is an array o
 
 
 ## Configurations
-*React(v17)
-*TypeScript
-*CSS Modules
+- React(v17)
+- TypeScript
+- CSS Modules
 
 ## Project Setup
 

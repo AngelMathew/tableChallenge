@@ -10,9 +10,14 @@ CSS Modules
 
 ## Project Setup
 
-```install dependencies
+install dependencies
 
-`npm install`                                                              
+```
+var add2 = function(number) {
+  return number + 2;
+}
+```
+              
 
 serve with hot reload at localhost:3000
 
@@ -20,7 +25,7 @@ serve with hot reload at localhost:3000
 
 build for production
 
-```npm run build ``` ```
+```npm run build ``` 
 
 You can get started by editing ```/src/App.tsx```
 

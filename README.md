@@ -10,7 +10,7 @@ CSS Modules
 
 ## Project Setup
 ```
-># install dependencies
+> # install dependencies
 npm install
 
 # serve with hot reload at localhost:3000

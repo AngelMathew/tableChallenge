@@ -1,0 +1,87 @@
+.tableWrapper{
+  border-right:2px solid black;
+  width: 500px;
+  margin:2em;
+  height: 100%;
+}
+.tableScroll{
+  overflow-x: scroll;
+  padding: 0;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+table{
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+tbody{
+  position: relative;
+  overflow: scroll;
+}
+
+td{
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  padding:1em;
+  min-width: 140px;
+}
+th{
+  padding:1em;
+  min-width: 140px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  
+}
+table th:first-child,
+table td:first-child {
+  border-left: 2px solid black;
+}
+table th:last-child,
+table td:last-child {
+  border-right: none;
+}
+
+.headerSort::after {
+  content: url("../../Images/SortArrow.svg");
+  height: 10px;
+  width: 10px;
+  float: right;
+}
+.headerSortUp::after {
+  content: url("../../Images/UpArrow.svg");
+  height: 10px;
+  width: 10px;
+  float: right;
+}
+.headerSortDown::after {
+  content: url("../../Images/DownArrow.svg");
+  height: 10px;
+  width: 10px;
+  float: right;
+}
+.noSorting{
+  pointer-events: none;
+}
+
+.inventoryBackground{
+  color: lightgreen;
+}
+.itemBackground{
+  background-color: lightskyblue !important;
+}
+td:first-child,th:first-child{
+  position: sticky;
+  left: 0;
+  top: auto;
+  background-color: white;
+  z-index: 3;
+  margin-right: 1em;
+  white-space: nowrap;
+  
+}
+
+
+ 

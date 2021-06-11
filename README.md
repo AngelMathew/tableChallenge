@@ -6,9 +6,9 @@ The `<Table/>` component in this project has 2 props, `data` which is an array o
 
 
 ## Configurations
-React(v17)
-TypeScript
-CSS Modules
+- React(v17)
+- TypeScript
+- CSS Modules
 
 ## Project Setup
 
@@ -18,7 +18,7 @@ CSS Modules
 npm install
 ```
              
-#### serve with hot reload at localhost:3000
+#### view the app in browser at http://localhost:3000
 ```
 npm start
 ```

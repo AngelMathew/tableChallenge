@@ -10,7 +10,7 @@ CSS Modules
 
 ## Project Setup
 
-install dependencies
+####install dependencies
 
 ```
 npm install

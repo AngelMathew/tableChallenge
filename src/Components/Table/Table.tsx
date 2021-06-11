@@ -45,7 +45,7 @@ const TableOne=(props:any)=>{
                     e.sortDirection="headerSortUp"
                 }
                 else{
-                    e.sortDirection=""
+                    e.sortDirection=null
                 }
             })
             setsorteDirection({direction:"dsc"})
@@ -57,19 +57,19 @@ const TableOne=(props:any)=>{
                 e.sortDirection="headerSortDown"
                 }
                 else{
-                    e.sortDirection=""
+                    e.sortDirection=null
                 }
             })
-            setsorteDirection({direction:""})
+            setsorteDirection({direction:" "})
         }
         
         // To unsort the table
-        if(sorteDirection.direction==="")
+        if(sorteDirection.direction===" ")
         {
             setsorteDirection({direction:"asc"})
             setData(unSortedData)
             header.forEach((e:any)=>{
-                e.sortDirection=""
+                e.sortDirection=null
             })
         }
         else{

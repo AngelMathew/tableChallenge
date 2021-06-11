@@ -11,7 +11,7 @@ CSS Modules
 ## Project Setup
 
 ### install dependencies
-npm install
+```npm install```
 
 ### serve with hot reload at localhost:1234
 npm run dev

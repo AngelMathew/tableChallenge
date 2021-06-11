@@ -13,9 +13,7 @@ CSS Modules
 install dependencies
 
 ```
-var add2 = function(number) {
-  return number + 2;
-}
+npm install
 ```
               
 

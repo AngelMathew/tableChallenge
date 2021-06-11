@@ -10,7 +10,7 @@ CSS Modules
 
 ## Project Setup
 
-install dependencies
+```install dependencies
 
 `npm install`                                                              
 
@@ -20,7 +20,7 @@ serve with hot reload at localhost:3000
 
 build for production
 
-```npm run build ```
+```npm run build ``` ```
 
 You can get started by editing ```/src/App.tsx```
 

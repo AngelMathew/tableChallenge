@@ -18,7 +18,7 @@ CSS Modules
 npm install
 ```
              
-#### serve with hot reload at localhost:3000
+#### view the app in browser at http://localhost:3000
 ```
 npm start
 ```

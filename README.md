@@ -9,13 +9,13 @@ TypeScript
 CSS Modules
 
 ## Project Setup
-```
-1. install dependencies
-npm install
 
-2. serve with hot reload at localhost:3000
-npm run dev
+install dependencies
+```npm install```
 
-3. build for production
-npm run build ```
+serve with hot reload at localhost:3000
+```npm run dev```
+
+build for production
+```npm run build ```
 
